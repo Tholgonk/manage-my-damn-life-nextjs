@@ -25,10 +25,10 @@ services:
       NEXT_PUBLIC_BASE_URL: "http://localhost:3000/"
 
       #DB_PASS and MYSQL_ROOT_PASSWORD must be the same.
-      DB_PASS: "root"
+      DB_PASS: "aAZbUPBcQTHoBx696cnQ"
       
       #DB_NAME and MYSQL_DATABASE must be the same.
-      DB_NAME: sample_install_mmdm
+      DB_NAME: thol_data
 
       ## AES Encryption Password
       ## This is used to encrypt CalDAV passwords in the database.
@@ -108,10 +108,10 @@ services:
     ## The following variables NEED to be set before execution.
     ############################################################
       #DB_NAME and MYSQL_DATABASE must be the same.
-      MYSQL_DATABASE: sample_install_mmdm
+      MYSQL_DATABASE: thol_data
 
       #DB_PASS and MYSQL_ROOT_PASSWORD must be the same.
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: aAZbUPBcQTHoBx696cnQ
 
     ############################################################
     ## The following variables are advanced settings,
